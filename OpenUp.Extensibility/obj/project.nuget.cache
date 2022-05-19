@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OHfPL3y5GtHkSgddUt0lEZ4pweLA1H6mDzVend4VeW5hAGd5uQUKpGRiD2jJAeGqtChC5Upvo4Crz4pDPw3KhQ==",
+  "dgSpecHash": "6/LUFeoLFdu1ZcDiabnw8qVELMwnWRzxouZ1WMTHD43derqNsRbATduQLUMWh2cvTYh9SHS3ACJ7pwL4BOJf+Q==",
   "success": true,
-  "projectFilePath": "/home/elmodai/Documents/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj",
+  "projectFilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
