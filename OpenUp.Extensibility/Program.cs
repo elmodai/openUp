@@ -2,6 +2,7 @@
 
 using OpenUp.Extensibility;
 
+var vih = new VIH { Nome = "sss"};
 
 Console.WriteLine("Hello, World!");
 

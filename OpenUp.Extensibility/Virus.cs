@@ -2,7 +2,7 @@ namespace OpenUp.Extensibility
 {
     public abstract class Virus
     {
-        public string Nome { get; set; }
+        public string Nome; 
 
         public HashSet<string> Causas { get; set; } // se as causas sao eliminadas entao o virus nao existe mais
 
