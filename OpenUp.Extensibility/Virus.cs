@@ -8,7 +8,7 @@ namespace OpenUp.Extensibility
 
         public HashSet<string> Causas { get; set; } // se eliminamos o virus entao os sintomas tambem vao 
 
-        public HashSet<string> Sintomass { get; set; } //sdfd
+        public HashSet<string> Sintomass { get; set; } //sdfddfgf
 
         void Transmissao()
         {
