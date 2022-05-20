@@ -16,11 +16,10 @@ var fruirasVegetais = frutas.Intersect(vegetais);
 
 var cereaisGraos = cereais.Intersect(graos);
 
-
 foreach (var item in fruirasVegetais)
 {
     if (fruirasVegetais.Any())
-        Console.WriteLine($"Fruto e vegetal: " + item);
+        Console.WriteLine($"Fruto e vegetal:  " + item);
     
 }
 
