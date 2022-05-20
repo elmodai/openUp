@@ -30,3 +30,29 @@ foreach (var item in cereaisGraos)
     
 }
 
+// Dicionarios / Mapa
+
+Dictionary<string, string> produtos = new();
+
+foreach (var item in cereais)
+{
+    produtos.Add(key: item.Substring(0,2), value: item);
+}
+
+foreach (var item in frutas)
+{
+    produtos.Add(key: item.Substring(0,3), value: item);
+}
+
+
+foreach (var item in graos)
+{
+    produtos.Add(key: item.Substring(0,4), value: item);
+}
+
+foreach (var item in produtos)
+{
+     Console.WriteLine($"Codigo " + item.Key + ", Valor: " + item.Value);
+}
+
+Console.WriteLine($"Produtos " + produtos.Count());
