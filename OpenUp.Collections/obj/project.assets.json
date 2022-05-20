@@ -8,19 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/elmodai/.nuget/packages/": {}
+    "/Users/elmodai/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/elmodai/Documents/openUp/OpenUp.Collections/OpenUp.Collections.csproj",
+      "projectUniqueName": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Collections/OpenUp.Collections.csproj",
       "projectName": "OpenUp.Collections",
-      "projectPath": "/home/elmodai/Documents/openUp/OpenUp.Collections/OpenUp.Collections.csproj",
-      "packagesPath": "/home/elmodai/.nuget/packages/",
-      "outputPath": "/home/elmodai/Documents/openUp/OpenUp.Collections/obj/",
+      "projectPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Collections/OpenUp.Collections.csproj",
+      "packagesPath": "/Users/elmodai/.nuget/packages/",
+      "outputPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Collections/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/elmodai/.nuget/NuGet/NuGet.Config"
+        "/Users/elmodai/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.4.22252.9/RuntimeIdentifierGraph.json"
       }
     }
   }

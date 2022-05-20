@@ -5,7 +5,9 @@ using OpenUp.Extensibility;
 
 var virusVIH = new VIH { Nome = "VIH/SIDA", EscalaVirus = 2};
 
-var virusCovid19 = new SARSCov2 { Nome = "Covid19" };
+var t = new Tratamento {AdministracaoDeFarmacos = 3, Hora = DateTime.Now.AddHours(8)};
+
+var virusCovid19 = new SARSCov2 { Nome = "Covid19", PropriedadeTratamento = t };
 
 List<ITransmissivel> virus = new();
 
@@ -16,6 +18,9 @@ foreach (var v in virus)
 {
     WriteLine(v.Transmitir());
 }
+
+HashSet<int> num = new(){1, 2, 3};
+HashSet<int> num2 = new(){1, 3, 2};
 
 
 // WriteLine($"O nome do vírus é: {virusVIH.Nome}");

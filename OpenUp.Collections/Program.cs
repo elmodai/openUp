@@ -2,9 +2,9 @@
 
 //Conjunto
 using System.Collections.Generic;
+using System.Collections.Immutable;
 
-var frutas = new HashSet<string>{ "Tomate", "Maca", "Pera", "Laranja"};
-
+var frutas = new List<string>{ "Tomate", "Maca", "Pera", "Laranja"};
 
 var vegetais = new HashSet<string>{ "Pimento", "Cenoura", "Milho", "Tomate"};
 
@@ -12,22 +12,18 @@ var cereais = new HashSet<string>{ "Arroz", "Milho", "Trigo"};
 
 var graos = new HashSet<string>{ "Arroz", "Milho", "Feijao"};
 
-var fruirasVegetais = frutas.Intersect(vegetais);
+var frutasVegetais = frutas.Intersect(vegetais);
 
 var cereaisGraos = cereais.Intersect(graos);
 
-foreach (var item in fruirasVegetais)
+foreach (var item in frutasVegetais)
 {
-    if (fruirasVegetais.Any())
-        Console.WriteLine($"Fruto e vegetal:  " + item);
-    
+    Console.WriteLine($"Fruto e vegetal:  " + item);    
 }
 
 foreach (var item in cereaisGraos)
 {
-    if (cereaisGraos.Any())
-        Console.WriteLine($"Cereal e grao: " + item);
-    
+    Console.WriteLine($"Cereal e grao: " + item);    
 }
 
 // Dicionarios / Mapa
@@ -56,3 +52,5 @@ foreach (var item in produtos)
 }
 
 Console.WriteLine($"Produtos " + produtos.Count());
+
+// ImmutableList<string> immutableCities = cereais.ToImmutableList();

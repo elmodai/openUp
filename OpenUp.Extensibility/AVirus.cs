@@ -8,9 +8,9 @@ namespace OpenUp.Extensibility
 
         public AgenteInfeccioso AgenteInfeccioso { get; set; } 
 
-        public HashSet<string> Sintomass { get; set; } 
+        public HashSet<Sintoma> Sintomas { get; set; } 
 
-        public Tratamento Tratamento { get; set; }
+        public Tratamento PropriedadeTratamento { get; set; }
 
     }
 }
