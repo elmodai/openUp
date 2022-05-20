@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/elmodai/Documents/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj": {}
+    "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj": {}
   },
   "projects": {
-    "/home/elmodai/Documents/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj": {
+    "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/elmodai/Documents/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj",
+        "projectUniqueName": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj",
         "projectName": "OpenUp.Extensibility",
-        "projectPath": "/home/elmodai/Documents/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj",
-        "packagesPath": "/home/elmodai/.nuget/packages/",
-        "outputPath": "/home/elmodai/Documents/openUp/OpenUp.Extensibility/obj/",
+        "projectPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Extensibility/OpenUp.Extensibility.csproj",
+        "packagesPath": "/Users/elmodai/.nuget/packages/",
+        "outputPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Extensibility/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/elmodai/.nuget/NuGet/NuGet.Config"
+          "/Users/elmodai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.4.22252.9/RuntimeIdentifierGraph.json"
         }
       }
     }
