@@ -1,0 +1,15 @@
+/home/elmodai/Documents/openUp/OpenUp.Collections/bin/Debug/net6.0/OpenUp.Collections
+/home/elmodai/Documents/openUp/OpenUp.Collections/bin/Debug/net6.0/OpenUp.Collections.deps.json
+/home/elmodai/Documents/openUp/OpenUp.Collections/bin/Debug/net6.0/OpenUp.Collections.runtimeconfig.json
+/home/elmodai/Documents/openUp/OpenUp.Collections/bin/Debug/net6.0/OpenUp.Collections.dll
+/home/elmodai/Documents/openUp/OpenUp.Collections/bin/Debug/net6.0/OpenUp.Collections.pdb
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/OpenUp.Collections.csproj.AssemblyReference.cache
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/OpenUp.Collections.GeneratedMSBuildEditorConfig.editorconfig
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/OpenUp.Collections.AssemblyInfoInputs.cache
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/OpenUp.Collections.AssemblyInfo.cs
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/OpenUp.Collections.csproj.CoreCompileInputs.cache
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/OpenUp.Collections.dll
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/refint/OpenUp.Collections.dll
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/OpenUp.Collections.pdb
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/OpenUp.Collections.genruntimeconfig.cache
+/home/elmodai/Documents/openUp/OpenUp.Collections/obj/Debug/net6.0/ref/OpenUp.Collections.dll
