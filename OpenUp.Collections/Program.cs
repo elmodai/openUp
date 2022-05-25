@@ -16,41 +16,44 @@ var frutasVegetais = frutas.Intersect(vegetais);
 
 var cereaisGraos = cereais.Intersect(graos);
 
-foreach (var item in frutasVegetais)
-{
-    Console.WriteLine($"Fruto e vegetal:  " + item);    
-}
-
-foreach (var item in cereaisGraos)
-{
-    Console.WriteLine($"Cereal e grao: " + item);    
-}
-
-// Dicionarios / Mapa
-
-Dictionary<string, string> produtos = new();
-
-foreach (var item in cereais)
-{
-    produtos.Add(key: item.Substring(0,2), value: item);
-}
-
-foreach (var item in frutas)
-{
-    produtos.Add(key: item.Substring(0,3), value: item);
-}
+var contemLetraO = vegetais.Where(v => v.Contains("o"));
 
 
-foreach (var item in graos)
-{
-    produtos.Add(key: item.Substring(0,4), value: item);
-}
+// foreach (var item in frutasVegetais)
+// {
+//     Console.WriteLine($"Fruto e vegetal:  " + item);    
+// }
 
-foreach (var item in produtos)
-{
-     Console.WriteLine($"Codigo " + item.Key + ", Valor: " + item.Value);
-}
+// foreach (var item in cereaisGraos)
+// {
+//     Console.WriteLine($"Cereal e grao: " + item);    
+// }
 
-Console.WriteLine($"Produtos " + produtos.Count());
+// // Dicionarios / Mapa
+
+// Dictionary<string, string> produtos = new();
+
+// foreach (var item in cereais)
+// {
+//     produtos.Add(key: item.Substring(0,2), value: item);
+// }
+
+// foreach (var item in frutas)
+// {
+//     produtos.Add(key: item.Substring(0,3), value: item);
+// }
+
+
+// foreach (var item in graos)
+// {
+//     produtos.Add(key: item.Substring(0,4), value: item);
+// }
+
+// foreach (var item in produtos)
+// {
+//      Console.WriteLine($"Codigo " + item.Key + ", Valor: " + item.Value);
+// }
+
+// Console.WriteLine($"Produtos " + produtos.Count());
 
 // ImmutableList<string> immutableCities = cereais.ToImmutableList();

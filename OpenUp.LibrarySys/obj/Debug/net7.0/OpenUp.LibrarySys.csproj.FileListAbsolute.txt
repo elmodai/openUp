@@ -1,0 +1,15 @@
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/bin/Debug/net7.0/OpenUp.LibrarySys
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/bin/Debug/net7.0/OpenUp.LibrarySys.deps.json
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/bin/Debug/net7.0/OpenUp.LibrarySys.runtimeconfig.json
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/bin/Debug/net7.0/OpenUp.LibrarySys.dll
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/bin/Debug/net7.0/OpenUp.LibrarySys.pdb
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/OpenUp.LibrarySys.csproj.AssemblyReference.cache
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/OpenUp.LibrarySys.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/OpenUp.LibrarySys.AssemblyInfoInputs.cache
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/OpenUp.LibrarySys.AssemblyInfo.cs
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/OpenUp.LibrarySys.csproj.CoreCompileInputs.cache
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/OpenUp.LibrarySys.dll
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/refint/OpenUp.LibrarySys.dll
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/OpenUp.LibrarySys.pdb
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/OpenUp.LibrarySys.genruntimeconfig.cache
+/Users/elmodai/Documents/GitHub/openUp/OpenUp.LibrarySys/obj/Debug/net7.0/ref/OpenUp.LibrarySys.dll
