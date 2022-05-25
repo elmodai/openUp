@@ -11,7 +11,7 @@ namespace OpenUp.EFCore.EFContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=CustomerDB.db;");
+            optionsBuilder.UseSqlite("Data Source=LibrarySys.db;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

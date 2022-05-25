@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "U5cZ0PpR25ITQikjUuKvMY3LQedttohOLIqNarRAxg35KJuH5M7hZruA2fJqneEnB0AE0HMqbN/+7+NERID8vg==",
+  "dgSpecHash": "yibDPslbnVj1pqGKiQWhi4TYc7rQ/jh26xWu1tTpp60cm6MSd1bhVnyEKN5CAmylmQwcjCtaDK+VPkNKksri9Q==",
   "success": true,
   "projectFilePath": "/home/elmodai/Documents/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj",
   "expectedPackageFiles": [
+    "/home/elmodai/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/elmodai/.nuget/packages/microsoft.data.sqlite.core/6.0.5/microsoft.data.sqlite.core.6.0.5.nupkg.sha512",
     "/home/elmodai/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/home/elmodai/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/home/elmodai/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "/home/elmodai/.nuget/packages/microsoft.entityframeworkcore.design/6.0.5/microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "/home/elmodai/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.5/microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "/home/elmodai/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.5/microsoft.entityframeworkcore.sqlite.6.0.5.nupkg.sha512",
     "/home/elmodai/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.5/microsoft.entityframeworkcore.sqlite.core.6.0.5.nupkg.sha512",
