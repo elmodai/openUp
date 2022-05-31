@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/elmodai/Documents/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj": {}
+    "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj": {}
   },
   "projects": {
-    "/home/elmodai/Documents/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj": {
+    "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/elmodai/Documents/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj",
+        "projectUniqueName": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj",
         "projectName": "OpenUp.EFCore",
-        "projectPath": "/home/elmodai/Documents/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj",
-        "packagesPath": "/home/elmodai/.nuget/packages/",
-        "outputPath": "/home/elmodai/Documents/openUp/OpenUp.EFCore/obj/",
+        "projectPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj",
+        "packagesPath": "/Users/elmodai/.nuget/packages/",
+        "outputPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/elmodai/.nuget/NuGet/NuGet.Config"
+          "/Users/elmodai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -46,9 +49,17 @@
               "target": "Package",
               "version": "[6.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
@@ -66,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.4.22252.9/RuntimeIdentifierGraph.json"
         }
       }
     }
