@@ -4,6 +4,83 @@
     "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/OpenUp.Web.App6.csproj": {}
   },
   "projects": {
+    "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj",
+        "projectName": "OpenUp.EFCore",
+        "projectPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj",
+        "packagesPath": "/Users/elmodai/.nuget/packages/",
+        "outputPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/elmodai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.4.22252.9/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/OpenUp.Web.App6.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +105,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj": {
+                "projectPath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.EFCore/OpenUp.EFCore.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

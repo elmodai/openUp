@@ -10,7 +10,6 @@ namespace OpenUp.Web.App6.Controllers;
 
 public class HomeController : Controller
 {
-
     ApplicationDbContext _db;
 
     public HomeController(ApplicationDbContext db)
@@ -21,11 +20,11 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Autor autor = new(){ Nome = "Jorge", Apelido = "Cadete", Idade = 22};
+        Autor autor = new(){ Nome = "Kelvinson", Apelido = "Stankovinovictoya", Idade = 22};
 
-        Editora editora = new() {Nome = "Total", Capital = 20000 };
+        Editora editora = new() {Nome = "Calcuo", Capital = 20000 };
 
-        Livro livro = new() {Autor = autor, Editora = editora, Titulo = "Sombra de prazeres", DataPublicacao = DateTime.Today.AddDays(-120), Obs = "Best seller"};
+        Livro livro = new() {Autor = autor, Editora = editora, Titulo = "Truques perigosos", DataPublicacao = DateTime.Today.AddDays(-120), Obs = "Best seller"};
         
         _db.Add(livro);
 
