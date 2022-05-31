@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/OpenUp.Web.csproj",
+  "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/OpenUp.Web.App6.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,46 +16295,51 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "OpenUp.Web",
+  "RootNamespace": "OpenUp.Web.App6",
   "Documents": [
     {
-      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/Views/Home/Privacy.cshtml",
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/Views/Shared/Error.cshtml",
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/Views/_ViewStart.cshtml",
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web/Views/Home/NovaView.cshtml",
-      "TargetPath": "Views\\Home\\NovaView.cshtml",
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Areas/Identity/Pages/_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/elmodai/Documents/GitHub/openUp/OpenUp.Web.App6/Views/Shared/_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
