@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "LibrarySys",
+            "database": "${workspaceFolder:openUp}/OpenUp.EFCore/LibrarySys.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
